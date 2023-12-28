@@ -1,0 +1,56 @@
+class Array{
+public static void main(String[] args){
+byte bh[]={-1,-2,-3,-4};
+short sh[]={1,2,3,4};
+int in[]={10,20,30,40};
+long ln[]={100,200,300,400};
+float fl[]={0.1f,0.2f,0.3f,0.4f};
+double db[]={10.1,10.2,10.3,10.4};
+char ch[]={'a','b','c','d'};
+boolean bl[]={true,false,false};
+String st[]={"123","213","321","132"};
+System.out.println(bh[0]);
+System.out.println(bh[1]);
+System.out.println(bh[2]);
+System.out.println(bh[3]);
+System.out.println();
+System.out.println(sh[0]);
+System.out.println(sh[1]);
+System.out.println(sh[2]);
+System.out.println(sh[3]);
+System.out.println();
+System.out.println(in[0]);
+System.out.println(in[1]);
+System.out.println(in[2]);
+System.out.println(in[3]);
+System.out.println();
+System.out.println(ln[0]);
+System.out.println(ln[1]);
+System.out.println(ln[2]);
+System.out.println(ln[3]);
+System.out.println();
+System.out.println(fl[0]);
+System.out.println(fl[1]);
+System.out.println(fl[2]);
+System.out.println(fl[3]);
+System.out.println();
+System.out.println(db[0]);
+System.out.println(db[1]);
+System.out.println(db[2]);
+System.out.println(db[3]);
+System.out.println();
+System.out.println(ch[0]);
+System.out.println(ch[1]);
+System.out.println(ch[2]);
+System.out.println(ch[3]);
+System.out.println();
+System.out.println(bl[0]);
+System.out.println(bl[1]);
+System.out.println(bl[2]);
+System.out.println();
+System.out.println(st[0]);
+System.out.println(st[1]);
+System.out.println(st[2]);
+System.out.println(st[3]);
+}
+}

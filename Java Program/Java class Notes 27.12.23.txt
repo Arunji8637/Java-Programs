@@ -1,0 +1,66 @@
+Array:
+------
+
+1. It is a collection of similar data type
+2. Elements of array are stored in continous memory locations
+3. The first element of the array is available at index 0 and the last element of the array is available at the index N - 1 where N is total number of elements in the array
+Note: [Java only] In java, an array has length property that contains the total number of elements in the array
+array-name.length	//this will give you couting to elements in the array
+4.Array itself is not a datatype, but a data structure.
+5.Array is not Resizable.Once its size is declared it cannot be changed.
+
+How to create an array in java:
+-------------------------------
+data-type array-name[] = new data-type[N];
+
+::For example::
+int marks[] = new int[5];	//array of int with 5 elements
+
+you can initiaize the elements of array also such thst in case of initialization; new keyword is not required
+
+data-type array-name[] = {comma separated values};
+e.g.
+double marks[] = {24.5, 25, 14, 29.0, 14.5};
+
+Access the Elements of an Array:
+--------------------------------
+You can access an array element by referring to the index number.
+
+This statement accesses the value of the first element in marks:
+
+double marks[] = {24.5, 25, 14, 29.0, 14.5};
+System.out.println(marks[0]);
+
+Output:
+24.5
+
+Change an Array Element:
+-----------------------
+To change the value of a specific element, refer to the index number:
+
+double marks[] = {24.5, 25, 14, 29.0, 14.5};
+marks[0]=27;
+System.out.println(marks[0]);
+
+output:
+27.0
+
+Array Length:
+------------
+To find out how many elements an array has, use the length property:
+
+double marks[] = {24.5, 25, 14, 29.0, 14.5};
+System.out.println(marks.length);
+
+Output:
+5
+
+
+
+
+
+
+
+
+
+
